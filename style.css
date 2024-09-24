@@ -1,0 +1,101 @@
+*{
+    margin: 10px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.first-heading{
+    width: 100%;
+    margin:20px 10px 20px 150px
+}
+
+.first-heading h5{
+    color: rgb(101, 9, 230);
+    
+}
+
+.first-heading h1{
+    margin-top: 20px;
+    color: white;
+}
+
+.first-heading p{
+    color: rgb(194, 188, 188);
+    font-size: 15px;
+}
+
+.main-container{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    color:rgb(162, 158, 158);
+    padding: 10px;
+    align-items: center;
+}
+
+.main-pro{
+    padding: 20px;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: rgba(255, 242, 242, 0.648) 0px 1px 4px;
+}
+.main-basic{
+    padding: 20px;
+    width: 25%;
+    margin: 30px 0 30px -10px;
+    border-radius: 10px;
+    box-shadow: rgba(207, 205, 205, 0.841) 0px 1px 4px;}
+
+.main-container h3,h1{
+    color:white;
+    font-weight: bold;
+}
+.price{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: 0;
+}
+.main-container h1{
+    margin-bottom: 20px;
+    size: 30px;
+}
+.list-div{
+    display: flex;
+    justify-content: center;
+}
+
+.list-div ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-div ul li::before{
+    content: '✔';
+    color: blue;
+    font-size: 18px;
+    margin-right: 10px;
+
+}
+
+.main-pro button{
+    width: 90%;
+    padding: 10px;
+    background-color: rgb(103, 33, 207);
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.main-basic button{
+    font-weight: bold;
+    color: white;
+    padding:10px;
+    width: 90%;
+    background:none;
+    margin-top: 140px;
+    box-shadow: rgba(126, 124, 124, 0.666) 0px 1px 4px;
+
+}
+
